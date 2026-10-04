@@ -4,9 +4,9 @@ Replace this template with your own entries. Add one entry per significant use o
 
 ## 1. <short title of what you used it for>
 
-**What I asked:**
+**What I asked:** How to put api key in .env file
 
-**What I kept vs. rewrote, and why:**
+**What I kept vs. rewrote, and why:** 
 
 **What the AI got wrong that I had to catch:**
 
