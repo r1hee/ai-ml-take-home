@@ -71,7 +71,7 @@ Precision, recall, and mAP@0.5-0.95 are read from the training curves at epoch 7
 - I trained on a laptop, so I could not try many settings. With more time I would try K-fold cross validation, other image sizes, and a lower learning rate.
 
 ### Stretch goals
-- The training images that my model is least confident on seems to be mallets. It had a problem with sometimes recognizing mallets as bottles, not even detecting it, or misrecognizing the background as objects. I think that in order to fix these problems the current data has to be thoroughly reviewed to have more tight bounding boxes. For images that were being misrecognized, I often noticed that it was in scenes with some of the object covered or in bad lighting. More scenes with these types of scenarios could be helpful in correcting some of the misclassification. 
+- The training images that my model is least confident on seems to be bottles. It had a problem with sometimes recognizing bottles as mallets, not even detecting it, or misrecognizing the background as objects. I think that in order to fix these problems the current data has to be thoroughly reviewed to have more tight bounding boxes. For images that were being misrecognized, I often noticed that it was in scenes with some of the object covered or in bad lighting. More scenes with these types of scenarios could be helpful in correcting some of the misclassification. 
 - I got a parameter count of 3,157,200 parameters
 - Computing inference speed = GFLOPs / (TOPS x utilization) = 8.9 GFLOPS / (6 TOPS x 0.3) = 4.94 ms. (This can get our ~200 frames of inferences in a second)
 - the 6 TOPS computing power is based off the Orange Pi 5's computing power
