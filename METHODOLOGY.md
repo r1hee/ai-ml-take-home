@@ -57,10 +57,10 @@ Precision, recall, and mAP@0.5-0.95 are read from the training curves at epoch 7
 
 ### Errors the model makes
 
-- **Bottle is the weaker class.** Its mAP@0.5 is 0.890 vs 0.977 for mallet, and its recall is lower at low confidence (about 0.89 vs 0.93 to 0.98). It misses more bottles than mallets.
-- **Boxes are not tight.** mAP@0.5 is 0.934 but mAP@0.5-0.95 is only about 0.61. The model finds the objects, but the box edges are not precise.
-- **More misses than false alarms.** Recall (about 0.87) is lower than precision (about 0.95).
-- **Mallet confidence is lower.** Above a confidence of about 0.7, mallet recall drops faster than bottle recall, so the model is less sure about its mallet predictions.
+- Its mAP@0.5 is 0.890 vs 0.977 for mallet, and its recall is lower at low confidence (about 0.89 vs 0.93 to 0.98). It misses more bottles than mallets.
+- mAP@0.5 is 0.934 but mAP@0.5-0.95 is only about 0.61. The model finds the objects, but the box edges are not precise.
+- Recall (about 0.87) is lower than precision (about 0.95).
+- Above a confidence of about 0.7, mallet recall drops faster than bottle recall, so the model is less sure about its mallet predictions.
 
 ### Limitations and what I would do next
 
